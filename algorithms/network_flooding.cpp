@@ -5,7 +5,10 @@
 #include <list>
 #include <unordered_map>
 
-// 2-E network flooding
+/*
+Network Flooding Implementation
+*/
+
 void networkFlooding(std::unordered_map<int, std::list<std::pair<int, int>>> graph, int source)
 {
 	std::set<int> visited; 
